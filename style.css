@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+/* Riquadro in trasparenza */
+.content{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px 15px 15px 15px ;
+  padding: 20px 0px 100px 0px;
+}
+
+header{
+  margin-top: 35px;
+}
+
+header > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+header h1{
+  text-align: center;
+  color: #00ff00;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-bottom: 1%;
+}
+
+nav{
+  background-color: #00ff00;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+nav, main{
+  width: 80%;
+  margin: auto;
+}
+
+main{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+}
+
+main h3{
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+div.monopattino > div:before{ /*Le frecce prima della via*/
+  content: ' \21A6';
+}
+
+/* Tutte le barre di carica e in primis gli elementi in comune */
+
+div > span{
+  background-size: cover;
+  border-radius: 3px 3px 3px 3px;
+  display: block;
+  color: orange;
+  padding-top: 25px;
+}
+
+#gino22>span{
+  background-color: #ffb84d;
+  width: 30%;
+
+}
+
+#mike24>span{
+  background-color: #5cd65c;
+  width: 80%;
+}
+
+#fede154>span{
+  background-color: #cc2900;
+  width: 10%;
+}
